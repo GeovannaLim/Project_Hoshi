@@ -5,6 +5,19 @@
 
 ---
 
+# 🚀 Live Platform
+
+🔗 **Platform:**  
+[https://geovannalim.my.canva.site/hoshi-orbital](https://geovannalim.my.canva.site/hoshi-orbital)
+
+🎥 **Pitch Video:**  
+(Add your YouTube pitch link here)
+
+🛰️ **Demo Video:**  
+(Add your YouTube demo link here)
+
+---
+
 ## 🚀 Overview
 
 HOSHI is an intelligent orbital coordination platform focused on the future of autonomous space operations.
@@ -106,6 +119,16 @@ The long-term vision includes:
 - Predictive orbital intelligence
 - AI-assisted maneuver planning
 - Space traffic infrastructure
+
+---
+
+# ⚠️ Development Notice
+
+The conversational AI system may occasionally experience slightly elevated response times due to cold-start behavior from the current cloud deployment environment.
+
+This occurs because the backend is currently hosted on a free-tier infrastructure during the prototype stage.
+
+Despite this, all orbital and conversational responses are processed using live backend services and real-time integrations.
 
 ---
 
