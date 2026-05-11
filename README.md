@@ -7,14 +7,17 @@
 
 # 🚀 Live Platform
 
-🔗 **Platform:**  
-[https://geovannalim.my.canva.site/hoshi-orbital](https://geovannalim.my.canva.site/hoshi-orbital)
+🔗 **Platform**  
+[Open Platform](https://geovannalim.my.canva.site/hoshi-orbital)
 
-🎥 **Pitch Video:**  
-(Add your YouTube pitch link here)
+🎞️ **Pitch Deck**  
+[View Pitch Deck](https://canva.link/lrm0afthm28duyp)
 
-🛰️ **Demo Video:**  
-(Add your YouTube demo link here)
+🎥 **Pitch Video**  
+[Watch Pitch Video](https://youtube.com/shorts/Z8JJws-iAtg?feature=share)
+
+🛰️ **Demo Video**  
+[Watch Demo Video](https://youtu.be/T5cAI-e2jXE)
 
 ---
 
