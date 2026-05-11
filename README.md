@@ -14,7 +14,7 @@
 [View Pitch Deck](https://canva.link/lrm0afthm28duyp)
 
 🎥 **Pitch Video**  
-[Watch Pitch Video](https://youtube.com/shorts/M4y__TR7xJI)
+[Watch Pitch Video](https://youtube.com/shorts/LdMB-RBytm4)
 
 🛰️ **Demo Video**  
 [Watch Demo Video](https://youtu.be/T5cAI-e2jXE)
