@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 210 40% 95%;
+    --card: 220 25% 7%;
+    --card-foreground: 210 40% 95%;
+    --popover: 220 25% 7%;
+    --popover-foreground: 210 40% 95%;
+    --primary: 210 100% 55%;
+    --primary-foreground: 220 20% 4%;
+    --secondary: 220 20% 12%;
+    --secondary-foreground: 210 40% 85%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 210 90% 45%;
+    --accent-foreground: 210 40% 95%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 25% 15%;
+    --input: 215 25% 15%;
+    --ring: 210 100% 55%;
+    --chart-1: 210 100% 55%;
+    --chart-2: 170 60% 45%;
+    --chart-3: 260 60% 55%;
+    --chart-4: 40 80% 55%;
+    --chart-5: 330 70% 55%;
+    --radius: 0.75rem;
+    --sidebar-background: 220 25% 5%;
+    --sidebar-foreground: 210 40% 85%;
+    --sidebar-primary: 210 100% 55%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 20% 10%;
+    --sidebar-accent-foreground: 210 40% 95%;
+    --sidebar-border: 215 25% 12%;
+    --sidebar-ring: 210 100% 55%;
+    --font-orbitron: 'Orbitron', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  .dark {
+    --background: 220 20% 4%;
+    --foreground: 210 40% 95%;
+    --card: 220 25% 7%;
+    --card-foreground: 210 40% 95%;
+    --popover: 220 25% 7%;
+    --popover-foreground: 210 40% 95%;
+    --primary: 210 100% 55%;
+    --primary-foreground: 220 20% 4%;
+    --secondary: 220 20% 12%;
+    --secondary-foreground: 210 40% 85%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 210 90% 45%;
+    --accent-foreground: 210 40% 95%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 25% 15%;
+    --input: 215 25% 15%;
+    --ring: 210 100% 55%;
+    --chart-1: 210 100% 55%;
+    --chart-2: 170 60% 45%;
+    --chart-3: 260 60% 55%;
+    --chart-4: 40 80% 55%;
+    --chart-5: 330 70% 55%;
+    --sidebar-background: 220 25% 5%;
+    --sidebar-foreground: 210 40% 85%;
+    --sidebar-primary: 210 100% 55%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 20% 10%;
+    --sidebar-accent-foreground: 210 40% 95%;
+    --sidebar-border: 215 25% 12%;
+    --sidebar-ring: 210 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inter);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(220 25% 5%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(215 25% 20%);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(210 100% 55% / 0.5);
+}
+
+/* Glow effects */
+.glow-blue {
+  box-shadow: 0 0 15px hsl(210 100% 55% / 0.15), 0 0 45px hsl(210 100% 55% / 0.05);
+}
+.glow-blue-strong {
+  box-shadow: 0 0 20px hsl(210 100% 55% / 0.3), 0 0 60px hsl(210 100% 55% / 0.1);
+}
+.text-glow {
+  text-shadow: 0 0 10px hsl(210 100% 55% / 0.5), 0 0 30px hsl(210 100% 55% / 0.2);
+}
+.glass {
+  background: hsl(220 25% 7% / 0.6);
+  backdrop-filter: blur(20px);
+  border: 1px solid hsl(215 25% 15% / 0.5);
+}
+.glass-strong {
+  background: hsl(220 25% 7% / 0.8);
+  backdrop-filter: blur(30px);
+  border: 1px solid hsl(215 25% 20% / 0.5);
+}
+
+/* Pulse animation for status indicators */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 5px currentColor, 0 0 10px currentColor; opacity: 1; }
+  50% { box-shadow: 0 0 10px currentColor, 0 0 25px currentColor; opacity: 0.7; }
+}
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Sound wave animation */
+@keyframes sound-wave {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
